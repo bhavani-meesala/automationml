@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[9]:
-#.
+
 
 import tensorflow as tf
 import matplotlib.pyplot as plt
