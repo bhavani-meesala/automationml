@@ -64,13 +64,7 @@ trained=model.fit(x=x_train,y=y_train, epochs=1)
 model.evaluate(x_test, y_test)
 
 
-# In[18]:
 
-
-image_index = 4444
-plt.imshow(x_test[image_index].reshape(28, 28),cmap='Greys')
-pred = model.predict(x_test[image_index].reshape(1, img_rows, img_cols, 1))
-print(pred.argmax())
 
 
 # In[22]:
