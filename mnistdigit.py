@@ -17,7 +17,7 @@ x_train.shape
 
 # In[11]:
 
-#.
+
 x_train = x_train.reshape(x_train.shape[0], 28, 28, 1)
 x_test = x_test.reshape(x_test.shape[0], 28, 28, 1)
 input_shape = (28, 28, 1)
