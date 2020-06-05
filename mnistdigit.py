@@ -55,7 +55,8 @@ model.summary()
 model.compile(optimizer='adam', 
               loss='sparse_categorical_crossentropy', 
               metrics=['accuracy'])
-trained=model.fit(x=x_train,y=y_train, epochs=1)
+epoch=1
+trained=model.fit(x=x_train,y=y_train, epochs=epoch)
 
 
 # In[17]:
